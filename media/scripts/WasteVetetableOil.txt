@@ -1,0 +1,18 @@
+module MM
+{
+    imports    
+    {
+		Base
+	}
+
+	
+	item WasteVegetableOil
+	{
+		Weight =		1.0,
+		Type = 			Normal,
+		DisplayName = 	Waste Vegetable Oil,
+		Icon = 			WasteVegetableOil,
+		Tooltip = 		Tooltip_item_WasteVegetableOil,
+		MechanicsItem = TRUE,
+	}
+}

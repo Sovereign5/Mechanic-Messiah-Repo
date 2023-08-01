@@ -1,0 +1,19 @@
+module Base
+{
+    imports    
+    {
+		Base
+	}
+	item FermentingBiodiesel
+	{
+		Weight =		5.0,
+		Type = 			Normal,
+		DisplayName = 		Fermenting Biodiesel,
+		Icon = 			Petrol,
+		Tooltip = 		Tooltip_item_FermentingBiodiesel,
+		Wet = 			TRUE,
+		WetCooldown = 		90000,
+		MechanicsItem = 	TRUE,
+		ItemWhenDry =		Base.PetrolCan,
+	}
+}

@@ -1,0 +1,85 @@
+module MM {
+	imports {
+    	Base, Radio
+	} 
+
+	recipe Make Waste Vegetable Oil (Cabbage Seeds)
+	{ 
+		keep Hammer/HammerStone/BallPeenHammer,
+		keep Bowl,
+		CabbageSeed=50,
+
+		Result:WasteVegetableOil,
+		Time:60.0,
+		Category:Health,
+	}
+
+	recipe Make Waste Vegetable Oil (Carrot Seeds)
+	{ 
+		keep Hammer/HammerStone/BallPeenHammer,
+		keep Bowl,
+		CarrotSeed=50,
+
+		Result:WasteVegetableOil,
+		Time:60.0,
+		Category:Health,
+	}
+
+	recipe Make Waste Vegetable Oil (Radish Seeds)
+	{ 
+		keep Hammer/HammerStone/BallPeenHammer,
+		keep Bowl,
+		RadishSeed=50,
+
+		Result:WasteVegetableOil,
+		Time:60.0,
+		Category:Health,
+	}
+
+	recipe Make Waste Vegetable Oil (Tomato Seeds)
+	{ 
+		keep Hammer/HammerStone/BallPeenHammer,
+		keep Bowl,
+		TomatoSeed=50,
+
+		Result:WasteVegetableOil,
+		Time:60.0,
+		Category:Health,
+	}
+
+	recipe Make Waste Vegetable Oil (Potato Seeds)
+	{ 
+		keep Hammer/HammerStone/BallPeenHammer,
+		keep Bowl,
+		PotatoSeed=50,
+
+		Result:WasteVegetableOil,
+		Time:60.0,
+		Category:Health,
+	}
+
+	recipe Make Biodiesel
+	{
+		keep ChemistryTools,
+		WasteVegetableOil,
+		EmptyPetrolCan,
+
+		Result:FermentingBiodiesel,
+		Time:250.0,
+		Category:Survivalist,
+	}
+
+	recipe LTS Mechanics Practice { 
+		keep LTSWorkbookMechanic,
+		keep Wrench,
+		ScrapMetal=2,
+		EngineParts,
+		Result:ScrapMetal,
+		Time:480.0,
+		Category:Welding,
+		AnimNode:Disassemble,
+		OnGiveXP:WorkbookXP_Mechanics,
+		Sound:PZ_Fire,
+	}
+}
+

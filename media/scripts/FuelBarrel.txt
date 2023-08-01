@@ -1,0 +1,17 @@
+module Base
+{
+    imports    
+    {
+		Base
+	}
+
+	item FuelBarrel
+	{
+		Weight =			25,
+		Type =				Drainable,
+		UseWhileEquipped =		FALSE,
+		UseDelta =			0.125,
+		DisplayName	=		Fuel Barrel,
+		Icon =				FuelBarrel,
+	}
+}
