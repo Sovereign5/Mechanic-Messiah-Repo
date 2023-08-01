@@ -69,7 +69,7 @@ module MM {
 		Category:Survivalist,
 	}
 
-	recipe LTS Mechanics Practice { 
+	recipe Mechanics Practice { 
 		keep LTSWorkbookMechanic,
 		keep Wrench,
 		ScrapMetal=2,

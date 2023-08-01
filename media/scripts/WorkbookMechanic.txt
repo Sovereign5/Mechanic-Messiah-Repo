@@ -9,7 +9,7 @@ module MM
 	{
 		Weight =			0.4,
 		Type =				Normal,
-		DisplayName	=		Awesome DIY - Mechanics,
+		DisplayName	=		DIY - Mechanics,
 		Icon =				Book8,
 		Tooltip = 			Tooltip_LTS_WBMechanic,
 	}
