@@ -29,7 +29,7 @@ module MM {
 	{ 
 		keep Hammer/HammerStone/BallPeenHammer,
 		keep Bowl,
-		RadishSeed=50,
+		RedRadishSeed=50,
 
 		Result:WasteVegetableOil,
 		Time:60.0,
@@ -79,6 +79,21 @@ module MM {
 		Category:Welding,
 		AnimNode:Disassemble,
 		OnGiveXP:WorkbookXP_Mechanics,
+		Sound:PZ_Fire,
+	}
+
+	recipe Make Engine Part {
+		keep WeldingMask,
+		WeldingRods=2,
+		BlowTorch=2,
+		SheetMetal,
+		ScrapMetal,
+		Result:EngineParts,
+		Time:500.0,
+		Category:Welding,
+		AnimNode:Disassemble,
+		OnGiveXP:CraftXP_Smithing,
+		OnCreate:onCreate_MakeEngineParts,
 		Sound:PZ_Fire,
 	}
 }

@@ -1,0 +1,15 @@
+version=1
+id=2482624520
+title=Mechanic Messiah
+description=An expansion to the mechanics skill line to allow an easier leveling experience and increased long-term survivability.
+description=
+description=This mod started as a branch from Def's Long Term Survival (DLTS). Credit to the author for ideas utilized here.
+description=Features of the Mod:
+description=	* DIY Workbook to experiment on engine parts.
+description=	* Ability to make biofuel. Needs a bowl, hammer, 50 seeds of the same time, and an empty petrol can.
+description=
+description=Future Features of the Mod:
+description=	* Allow more gas to be created at once through the use of a petrol barrel.
+description=	* DIY Car Parts.
+tags=Build 41;Items
+visibility=public

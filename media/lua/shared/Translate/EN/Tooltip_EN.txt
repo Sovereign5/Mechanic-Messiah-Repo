@@ -1,8 +1,0 @@
-Tooltip_EN = {
-	-- Item tooltip
-    Tooltip_item_ChemistryTools = "Chemicals and compounds to turn waste vegetable oils into biodiesel. Reusable.",
-
-    Tooltip_item_FermentingBiodiesel = "The biodiesel is fermenting and requires time.",
-
-    Tooltip_LTS_WBMechanic = "Get a Wrench, 2 Metal Scrap and an Engine Part to start learning.",
-}
